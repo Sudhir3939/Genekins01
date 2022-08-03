@@ -10,6 +10,9 @@ public class WelcomeController {
 	@GetMapping("/message")
 	public String getMessage() {
 		return "Welcome...";
+	try{}
+catch (exception e )
+{}	
 	}
 
 }
